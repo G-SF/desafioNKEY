@@ -6,96 +6,35 @@
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-      crossorigin="anonymous"
     />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <link
-      rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Open+Sans:400,700"
+      rel="stylesheet"
+      media="all"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Exo+2:400,500&display=swap"
+      rel="stylesheet"
+      media="all"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+      rel="stylesheet"
+      media="all"
     />
 
-    <style>
-      .sideheader-list {
-        font-family: "Open Sans";
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 24px;
-        /* identical to box height, or 171% */
-
-        text-align: center;
-        letter-spacing: -0.41px;
-        color: #ffffff;
-        text-decoration: none;
-      }
-
-      a:hover {
-        color: yellow; /* Substitua "red" pela cor desejada */
-      }
-      .dropdown-item {
-        margin-bottom: 5px;
-      }
-      .product-item {
-        display: block;
-        text-align: center;
-        margin-top: 10px;
-      }
-    </style>
+    <style></style>
   </head>
   <body>
-    <nav
-      class="navbar-header"
-      style="
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 14px 165px;
-        width: 100%;
-        background: #ffffff;
-        width: 1500px;
-        height: 88px;
-      "
-    >
-      <div
-        class="navbar-layer1"
-        style="
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-          padding: 0px;
-          gap: 120px;
+    <link rel="stylesheet" type="text/css" href="navbar-header.css" />
 
-          width: 1109px;
-          height: 60px;
-
-          /* Inside auto layout */
-
-          flex: none;
-          order: 0;
-          align-self: stretch;
-          flex-grow: 0;
-        "
-      >
-        <img
-          src="assets/logo.svg"
-          class="img-thumbnail logo"
-          alt="logo"
-          style="
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-            padding: 0px;
-            gap: 10px;
-
-            width: 120px;
-            height: 60px;
-          "
-        />
+    <nav class="navbar-header">
+      <div class="navbar-layer1">
+        <img src="assets/logo.svg" class="img-thumbnail logo" alt="logo" />
         <form class="d-flex">
           <i
             class="fas fa-search search-icon fa-xl"
@@ -107,35 +46,30 @@
             placeholder=" Busque produtos, serviços, marcas e muito mais ...."
             aria-label="Search"
             style="
+              box-sizing: border-box;
               display: flex;
               flex-direction: row;
               align-items: flex-start;
               padding: 14px;
               gap: 24px;
 
-              width: 700px;
+              width: 644.84px;
               height: 48px;
+
+              background: #ffffff;
+
+              border: 1px solid #cdd5e0;
+              border-radius: 8px;
+
+              flex: none;
+              order: 1;
+              flex-grow: 1;
             "
           />
         </form>
       </div>
 
-      <div
-        class="header-icons"
-        style="
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-          padding: 0px;
-          gap: 35px;
-
-          width: 232.16px;
-          height: 38.02px;
-
-          width: 24px;
-          height: 22.02px;
-        "
-      >
+      <div class="header-icons">
         <i class="fa-regular fa-heart fa-xl" style="color: #422d92"></i>
         <i class="fa-solid fa-cart-arrow-down fa-xl" style="color: #422d92"></i>
         <i class="fa-solid fa-user fa-xl" style="color: #422d92"></i>
@@ -201,13 +135,11 @@
         style="
           display: flex;
           flex-direction: row;
-          align-items: flex-start;
-          justify-content: flex-start;
-          text-align: left;
+          align-items: center;
           padding: 0px;
-          gap: 100px;
+          gap: 24px;
 
-          width: 100%;
+          width: 1111px;
           height: 24px;
         "
       >
@@ -329,35 +261,139 @@
       <img src="assets/vantagens.svg" />
     </div>
 
-    <div
-      class="container text-center"
-      style="display: flex; margin-top: 5%; width: 100%"
-    >
-      <div
-        class="row row-cols-4"
-        style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10%"
-      >
-        <div
-          class="col d-flex flex-column align-items-center justify-content-center"
-        >
+    <link rel="stylesheet" href="conteiner-text.css" />
+
+    <div class="container text-center">
+      <div class="row row-cols-4">
+        <div class="col d-flex flex-column align-items-center">
           <img src="assets/relogio.svg" alt="relogio" />
-          <a class="product-item" href="#">Nome do Produto</a>
+          <a class="product-item" href="#">Relógio</a>
+          <p class="product-price">R$ 139,00</p>
+          <p class="product-desc">ou 10x de R$ 13,90 sem juros</p>
         </div>
         <div class="col d-flex flex-column align-items-center">
           <img src="assets/arcondicionado.svg" alt="arcondicionado" />
+          <a class="product-item" href="#">Ar Condicionado</a>
+          <p class="product-price">R$ 139,00</p>
+          <p class="product-desc">ou 10x de R$ 13,90 sem juros</p>
         </div>
         <div class="col d-flex flex-column align-items-center">
           <img src="assets/arcondicionado2.svg" alt="arcondicionado2" />
+          <a class="product-item" href="#">Ar Condicionado 2</a>
+          <p class="product-price">R$ 139,00</p>
+          <p class="product-desc">ou 10x de R$ 13,90 sem juros</p>
         </div>
         <div class="col d-flex flex-column align-items-center">
           <img src="assets/ventilador.svg" alt="ventilador" />
+          <a class="product-item" href="#">Ventilador</a>
+          <p class="product-price">R$ 139,00</p>
+          <p class="product-desc">ou 10x de R$ 13,90 sem juros</p>
         </div>
-        <div class="col d-flex flex-column align-items-center">Column</div>
-        <div class="col d-flex flex-column align-items-center">Column</div>
-        <div class="col d-flex flex-column align-items-center">Column</div>
-        <div class="col d-flex flex-column align-items-center">Column</div>
+        <div class="col d-flex flex-column align-items-center">
+          <img src="assets/aspirador.svg" alt="relogio" />
+          <a class="product-item" href="#">Aspirador</a>
+          <p class="product-price">R$ 139,00</p>
+          <p class="product-desc">ou 10x de R$ 13,90 sem juros</p>
+        </div>
+        <div class="col d-flex flex-column align-items-center">
+          <img src="assets/airfryer.svg" alt="arcondicionado" />
+          <a class="product-item" href="#">Air Fryer</a>
+          <p class="product-price">R$ 139,00</p>
+          <p class="product-desc">ou 10x de R$ 13,90 sem juros</p>
+        </div>
+        <div class="col d-flex flex-column align-items-center">
+          <img src="assets/panelaeletrica.svg" alt="arcondicionado2" />
+          <a class="product-item" href="#">Panela Eletrica</a>
+          <p class="product-price">R$ 139,00</p>
+          <p class="product-desc">ou 10x de R$ 13,90 sem juros</p>
+        </div>
+        <div class="col d-flex flex-column align-items-center">
+          <img src="assets/batedor.svg" alt="ventilador" />
+          <a class="product-item" href="#">Batedor Eletronico</a>
+          <p class="product-price">R$ 139,00</p>
+          <p class="product-desc">ou 10x de R$ 13,90 sem juros</p>
+        </div>
       </div>
     </div>
+
+    <link rel="stylesheet" href="footer-layer.css" />
+
+    <div class="footer-layer container-fluid">
+      <div class="col">
+        <div class="row g-3 align-items-center d-flex justify-content-center">
+          <div class="col">
+            <p class="text-footer text-center">
+              Receber ofertas, cupons e novidades:
+            </p>
+          </div>
+          <div class="col">
+            <label class="visually-hidden" for="inlineFormInputGroupUsername"
+              >Nome</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="inlineFormInputGroupUsername"
+              placeholder="Nome"
+            />
+          </div>
+          <div class="col">
+            <label class="visually-hidden" for="inlineFormInputGroupEmail"
+              >Email</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="inlineFormInputGroupEmail"
+              placeholder="Email"
+            />
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div
+        class="footer-purple d-flex justify-content-center"
+        style="width: 100%; height: 250px; background: #422d92"
+      >
+        <div class="container custom-padding-top">
+          <div class="row d-flex justify-content-center align-content-center">
+            <div class="col-md-3 h-100">
+              <p class="text-footer-h1">NKEY DIGITAL</p>
+              <a class="text-footer-h2">Nosso propósito</a><br />
+              <a class="text-footer-h2">Como Vender</a>
+            </div>
+            <div class="col-md-3 h-100">
+              <p class="text-footer-h1">INFORMAÇÕES</p>
+              <a class="text-footer-h2">Termos de uso</a><br />
+              <a class="text-footer-h2">Trocas e devoluções</a><br />
+              <a class="text-footer-h2">Formas de pagamento</a><br />
+              <a class="text-footer-h2">Privacidade e segurança</a><br />
+              <a class="text-footer-h2">Procon</a>
+            </div>
+            <div class="col-md-3 h-100">
+              <p class="text-footer-h1">SAC 0800 666 6666</p>
+              <a class="text-footer-h2">Segunda à sexta - 7h às 22h</a><br />
+              <a class="text-footer-h2">Sáb., domingo e feriados - 8h às 20h</a
+              ><br />
+              <a class="text-footer-h2"
+                >Chamadas internacionais: 55 48 3232 3232</a
+              ><br />
+              <!-- Conteúdo da terceira coluna -->
+            </div>
+            <div class="col-md-3 h-100">
+              <p class="text-footer-h1">SIGA A GENTE</p>
+              <a class="text-footer-h2">Nosso propósito<br />vender</a>
+              <!-- Conteúdo da quarta coluna -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"

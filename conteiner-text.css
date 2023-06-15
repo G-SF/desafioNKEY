@@ -1,0 +1,26 @@
+.container.text-center {
+  display: flex;
+  margin-top: 5%;
+  width: 100%;
+}
+
+.row.row-cols-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10%;
+}
+
+.col.d-flex.flex-column.align-items-center {
+  text-align: center;
+}
+
+.product-item {
+  text-decoration: none;
+}
+
+.product-price,
+.product-desc {
+  margin-top: 5px;
+}
+
+/* Adicione estilos personalizados para as imagens dos produtos, se necessário */

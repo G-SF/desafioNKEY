@@ -1,0 +1,95 @@
+/* CSS para a div navbar-header */
+.navbar-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 165px;
+  width: 100%;
+  background: #ffffff;
+  width: 1439px;
+  height: 88px;
+}
+
+/* CSS para a div navbar-layer1 */
+.navbar-layer1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 56px;
+  width: 1109px;
+  height: 60px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* CSS para a imagem */
+.img-thumbnail.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  width: 120px;
+  height: 60px;
+}
+
+/* CSS para a div header-icons */
+.header-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 35px;
+
+  width: 232.16px;
+  height: 38.02px;
+
+  width: 24px;
+  height: 22.02px;
+}
+.sideheader-list,
+.product-item,
+.product-price,
+.product-desc,
+.text-footer {
+  font-family: "Exo 2", sans-serif;
+}
+
+.sideheader-list {
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+}
+
+.dropdown-item {
+  margin-bottom: 5px;
+}
+
+.product-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #20293a;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.product-price {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #677489;
+  padding: 15px 0px;
+  gap: 10px;
+  white-space: nowrap;
+}

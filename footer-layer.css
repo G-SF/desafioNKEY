@@ -1,0 +1,83 @@
+.footer-layer {
+  height: 86px;
+  background: #f2f5f9;
+  margin-top: 10%;
+}
+
+.row.g-3.align-items-center.d-flex.justify-content-center {
+  margin: 20px 120px 20px 120px;
+}
+
+.text-footer {
+  margin: 20px 120px 20px 120px;
+  width: 256px;
+}
+
+.col:nth-child(2) {
+  margin-left: 60px;
+}
+
+.form-control {
+  width: 300px;
+  height: 44px;
+  border: 1px solid #cdd5e0;
+  border-radius: 8px;
+}
+
+.btn.btn-primary {
+  width: 300px;
+  height: 44px;
+  background: #422d92;
+  border-radius: 8px;
+}
+
+.text-footer {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  color: #422d92;
+  white-space: nowrap;
+}
+
+.product-desc {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #677489;
+  white-space: nowrap;
+}
+.text-footer-h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: -0.41px;
+
+  /* Color / Basic / Light */
+
+  color: #ffffff;
+}
+
+.text-footer-h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: -0.41px;
+
+  /* nkey / color / white */
+
+  color: #ffffff;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.custom-padding-top {
+  padding-top: 56px;
+}

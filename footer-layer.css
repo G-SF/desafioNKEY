@@ -81,3 +81,13 @@
 .custom-padding-top {
   padding-top: 56px;
 }
+
+.final-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  color: #677489;
+  letter-spacing: -0.41px;
+}

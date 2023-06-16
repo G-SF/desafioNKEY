@@ -8,11 +8,6 @@
   margin: 20px 120px 20px 120px;
 }
 
-.text-footer {
-  margin: 20px 120px 20px 120px;
-  width: 256px;
-}
-
 .col:nth-child(2) {
   margin-left: 60px;
 }
@@ -37,6 +32,9 @@
   line-height: 24px;
   color: #422d92;
   white-space: nowrap;
+  height: 24px;
+  width: 256px;
+  border-radius: nullpx;
 }
 
 .product-desc {

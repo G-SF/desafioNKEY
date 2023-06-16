@@ -1,28 +1,70 @@
-/* CSS para a div navbar-header */
-.navbar-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 14px 165px;
-  width: 100%;
-  background: #ffffff;
-  width: 1439px;
-  height: 88px;
+@media (max-width: 320px) {
+  .container {
+    width: 304px;
+    height: 72px;
+  }
+
+  .logonkey {
+    width: 80px;
+    height: 40px;
+  }
+
+  .navbar {
+    width: 320px;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button-text {
+    display: none;
+  }
 }
 
-/* CSS para a div navbar-layer1 */
-.navbar-layer1 {
+.custom-input {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.41px;
+  color: #677489;
+}
+
+button.btn.btn-link.fa-lg {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  padding: 0px;
-  gap: 56px;
-  width: 1109px;
-  height: 60px;
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
+  color: #422d92;
+  text-decoration: none;
+}
+
+button.btn.btn-link.fa-lg i {
+  font-size: 22px;
+}
+
+.dropdown-menu {
+  right: auto !important;
+  transform: translate(-51%, 8%) !important;
+}
+.dropdown-item {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #111111;
+}
+
+.dropdown-item:active {
+  background-color: none;
 }
 
 /* CSS para a imagem */
@@ -37,20 +79,6 @@
   height: 60px;
 }
 
-/* CSS para a div header-icons */
-.header-icons {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  gap: 35px;
-
-  width: 232.16px;
-  height: 38.02px;
-
-  width: 24px;
-  height: 22.02px;
-}
 .sideheader-list,
 .product-item,
 .product-price,
@@ -60,9 +88,22 @@
 }
 
 .sideheader-list {
+  width: 111px;
+  height: 24px;
+
+  font-style: normal;
   font-weight: 700;
   font-size: 14px;
+  line-height: 24px;
+
+  text-align: center;
+  letter-spacing: -0.41px;
+
   color: #ffffff;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
   text-decoration: none;
 }
 
@@ -92,4 +133,9 @@ a:hover {
   padding: 15px 0px;
   gap: 10px;
   white-space: nowrap;
+}
+
+.product-price,
+.product-desc {
+  margin-top: 5px;
 }

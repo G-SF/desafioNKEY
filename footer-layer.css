@@ -1,17 +1,3 @@
-.footer-layer {
-  height: 86px;
-  background: #f2f5f9;
-  margin-top: 10%;
-}
-
-.row.g-3.align-items-center.d-flex.justify-content-center {
-  margin: 20px 120px 20px 120px;
-}
-
-.col:nth-child(2) {
-  margin-left: 60px;
-}
-
 .form-control {
   width: 300px;
   height: 44px;
@@ -50,11 +36,8 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
-  /* identical to box height, or 133% */
 
   letter-spacing: -0.41px;
-
-  /* Color / Basic / Light */
 
   color: #ffffff;
 }
@@ -65,11 +48,8 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* or 150% */
 
   letter-spacing: -0.41px;
-
-  /* nkey / color / white */
 
   color: #ffffff;
   white-space: nowrap;

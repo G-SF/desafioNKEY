@@ -49,7 +49,6 @@ button.btn.btn-link.fa-lg {
 button.btn.btn-link.fa-lg i {
   font-size: 22px;
 }
-
 .dropdown-menu {
   right: auto !important;
   transform: translate(-51%, 8%) !important;
@@ -61,22 +60,10 @@ button.btn.btn-link.fa-lg i {
   font-size: 14px;
   line-height: 19px;
   color: #111111;
+  margin-bottom: 5px;
 }
-
 .dropdown-item:active {
-  background-color: none;
-}
-
-/* CSS para a imagem */
-.img-thumbnail.logo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  gap: 10px;
-  width: 120px;
-  height: 60px;
+  background-color: white;
 }
 
 .sideheader-list,
@@ -109,10 +96,6 @@ button.btn.btn-link.fa-lg i {
 
 a:hover {
   color: yellow;
-}
-
-.dropdown-item {
-  margin-bottom: 5px;
 }
 
 .product-item {
